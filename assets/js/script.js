@@ -135,6 +135,11 @@ for (let i = 0; i < formInputs.length; i++) {
 }
 
 
+if (window.innerWidth < 1024) {
+  sidebar.classList.add("active");
+} else {
+  sidebar.classList.remove("active");
+}
 
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");

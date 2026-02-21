@@ -1851,6 +1851,8 @@ textarea.form-input::-webkit-resizer { display: none; }
     visibility: visible;
   }
 
+  /* custom default (mobile) */
+
   .contacts-list { grid-template-columns: 1fr; }
 
   .contact-info :is(.contact-link) {
