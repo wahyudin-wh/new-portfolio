@@ -1746,13 +1746,18 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .project-list { grid-template-columns: repeat(3, 1fr); }
 
-
-
+  
   /**
-   * BLOG
-   */
+  * BLOG
+    */
 
   .blog-banner-box { height: 230px; }
+
+   /* Custom */
+  .img-zoom-10{
+    object-fit:cover;
+    transform:scale(1.4); /* ini zoom level */
+  }
 
 }
 
